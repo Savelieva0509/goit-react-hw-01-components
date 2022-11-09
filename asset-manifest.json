@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react-homework-template/static/js/main.ac5a911e.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.ac5a911e.js.map": "/react-homework-template/static/js/main.ac5a911e.js.map"
+    "main.js": "/goit-react-hw-01-components/static/js/main.ac5a911e.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.ac5a911e.js.map": "/goit-react-hw-01-components/static/js/main.ac5a911e.js.map"
   },
   "entrypoints": [
     "static/js/main.ac5a911e.js"
