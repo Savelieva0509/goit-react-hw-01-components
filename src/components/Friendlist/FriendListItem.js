@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types'; 
+import css from './Statistics.module.css';
 
 export default function FriendListItem({ avatar, name, IsOnline }) {
   
     return (
         <div>
-            <span class="status">{IsOnline }</span>
-        <img class="avatar" src={avatar} alt="User avatar" width="48" />
-            <p class="name">{name}</p>       
+            <span className={css.status}>{IsOnline }</span>
+            <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+            <p className={css.name}>{name}</p>       
         </div>
     );
 }
