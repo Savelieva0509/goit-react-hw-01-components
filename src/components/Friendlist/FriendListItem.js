@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types'; 
-import css from './Statistics.module.css';
+import css from './FriendList.module.css';
 
-export default function FriendListItem({ avatar, name, IsOnline }) {
-  
-    return (
-        <div>
-            <span className={css.status}>{IsOnline }</span>
-            <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
-            <p className={css.name}>{name}</p>       
-        </div>
-    );
+export default function FriendListItem({ avatar, name, isOnline }) {
+  return (
+    <li className={css.item}>
+      <span className={isOnline ? css.online : css.ofline}>{isOnline}</span>
+
+      <img className={css.avatar} src={avatar} alt={name} width="48" />
+      <p className={css.name}>{name}</p>
+    </li>
+  );
 }
 
 FriendListItem.propTypes = {

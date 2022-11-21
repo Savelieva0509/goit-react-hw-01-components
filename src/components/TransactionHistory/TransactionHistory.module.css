@@ -1,0 +1,36 @@
+.table {
+    margin: 0 auto;
+    width: 60%;
+    border-collapse: collapse;
+    color: lightslategray;;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.head {
+    background: rgb(100, 187, 233);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.head__data {
+    padding: 10px;
+    border: 1px solid lightslategray;
+}
+
+.body__data {
+    border: 1px solid lightslategray;
+    padding: 10px;
+}
+
+.body__row {
+    text-align: center;
+}
+
+.body__row:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.body__row:nth-child(even) {
+    background-color:  rgb(231, 236, 242);
+}
+

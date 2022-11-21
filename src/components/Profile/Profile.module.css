@@ -1,14 +1,14 @@
-ul {
-    list-style: none;
+li {
     margin: 0;
     padding: 0;
 }
+
 
 .profile {
     background-color:rgb(231, 236, 242);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
 }
 
 .description {
@@ -34,6 +34,10 @@ ul {
 }
 
 .stats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
     background-color: rgb(231, 236, 242);
     display: flex;
     text-align: center;
@@ -59,8 +63,6 @@ ul {
 .label {
     padding-bottom: 10px;
     color: rgba(63, 62, 62, 0.5);
-    margin: 0 auto;
-    
 }
 
 .quantity {
