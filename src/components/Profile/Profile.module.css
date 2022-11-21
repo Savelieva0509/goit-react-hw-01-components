@@ -45,7 +45,7 @@ li {
 }
 
 .stats>li {
-    width: calc((100%-60px)/3);
+    width: calc(100%/3);
     border-top: 1px solid rgba(0, 0, 0, 0.24) ;
 }
 
